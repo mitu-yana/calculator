@@ -22,6 +22,10 @@ public class Main {
                 rez = numx * numy;
                 break;
             case "/":
+                if (numy == 0) {
+                System.out.println("на ноль делить нельзя");
+                break;
+            }
                 rez = numx / numy;
                 break;
             default:
